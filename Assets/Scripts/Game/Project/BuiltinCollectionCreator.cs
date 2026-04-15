@@ -29,9 +29,11 @@ namespace DLS.Game
 					ChipType.In_1Bit,
 					ChipType.In_4Bit,
 					ChipType.In_8Bit,
+					ChipType.In_16Bit,
 					ChipType.Out_1Bit,
 					ChipType.Out_4Bit,
-					ChipType.Out_8Bit
+					ChipType.Out_8Bit,
+					ChipType.Out_16Bit
 				),
 				CreateChipCollection("MERGE/SPLIT",
 					ChipType.Merge_1To4Bit,

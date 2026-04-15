@@ -32,9 +32,11 @@ namespace DLS.Description
 		In_1Bit,
 		In_4Bit,
 		In_8Bit,
+		In_16Bit,
 		Out_1Bit,
 		Out_4Bit,
 		Out_8Bit,
+		Out_16Bit,
 
 		Key,
 
