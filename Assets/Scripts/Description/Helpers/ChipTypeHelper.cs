@@ -20,9 +20,13 @@ namespace DLS.Description
 			// ---- Split / Merge ----
 			{ ChipType.Split_4To1Bit, "4-1BIT" },
 			{ ChipType.Split_8To1Bit, "8-1BIT" },
+			{ ChipType.Split_16To1Bit, "16-1BIT" },
 			{ ChipType.Split_8To4Bit, "8-4BIT" },
+			{ ChipType.Split_16To8Bit, "16-8BIT" },
 			{ ChipType.Merge_4To8Bit, "4-8BIT" },
+			{ ChipType.Merge_8To16Bit, "8-16BIT" },
 			{ ChipType.Merge_1To8Bit, "1-8BIT" },
+			{ ChipType.Merge_1To16Bit, "1-16BIT" },
 			{ ChipType.Merge_1To4Bit, "1-4BIT" },
 
 			// ---- Displays -----

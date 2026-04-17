@@ -23,10 +23,14 @@ namespace DLS.Description
 		// ---- Merge / Split ----
 		Merge_1To4Bit,
 		Merge_1To8Bit,
+		Merge_1To16Bit,
 		Merge_4To8Bit,
+		Merge_8To16Bit,
 		Split_4To1Bit,
 		Split_8To4Bit,
 		Split_8To1Bit,
+		Split_16To8Bit,
+		Split_16To1Bit,
 
 		// ---- In / Out Pins ----
 		In_1Bit,

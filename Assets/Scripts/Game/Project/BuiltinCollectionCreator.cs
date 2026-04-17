@@ -38,10 +38,14 @@ namespace DLS.Game
 				CreateChipCollection("MERGE/SPLIT",
 					ChipType.Merge_1To4Bit,
 					ChipType.Merge_1To8Bit,
+					ChipType.Merge_1To16Bit,
 					ChipType.Merge_4To8Bit,
+					ChipType.Merge_8To16Bit,
 					ChipType.Split_4To1Bit,
 					ChipType.Split_8To4Bit,
-					ChipType.Split_8To1Bit
+					ChipType.Split_8To1Bit,
+					ChipType.Split_16To8Bit,
+					ChipType.Split_16To1Bit
 				),
 				CreateChipCollection("BUS",
 					ChipType.Bus_1Bit,
