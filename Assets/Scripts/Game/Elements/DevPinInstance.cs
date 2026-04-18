@@ -59,7 +59,14 @@ namespace DLS.Game
 		{
 			get
 			{
-				int gridDst = BitCount is PinBitCount.Bit1 or PinBitCount.Bit4 ? 6 : 9;
+				int gridDst = BitCount switch
+			{
+				PinBitCount.Bit1 => 6,
+				PinBitCount.Bit4 => 6,
+				PinBitCount.Bit8 => 9,
+				PinBitCount.Bit16 => 13, // Wider grid needs more distance
+				_ => 9
+			};
 				return HandlePosition + faceDir * (GridSize * gridDst);
 			}
 		}
